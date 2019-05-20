@@ -15,7 +15,7 @@ emoticons_hash["get_meaning"][faces.last]= word
 end
 
 def get_japanese_emoticon(file_path,emoticon)
-  # code goes here
+ emoticons_hash = load_library(file_path)
 end
 
 def get_english_meaning
