@@ -4,8 +4,8 @@ def load_library(file_path)
  emoticons=YAML.load_file('./lib/emoticons.yml')
  emoticons_hash=Hash.new 
  
- emoticons_hash["emoticon"]=hash.new 
- emoticons_hash["meaning"]=hash.new 
+ emoticons_hash["emoticon"]=Hash.new 
+ emoticons_hash["meaning"]=Hash.new 
  
  emoticons.each do |word,faces| 
  emoticons_hash["emoticon"][faces.first]=faces.last 
