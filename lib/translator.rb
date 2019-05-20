@@ -9,7 +9,7 @@ def load_library
  
  emoticons.each do |word,faces| 
  emoticons_hash["emoticon][faces.first]=faces.last 
- emoticons_hash["meaning"][faces.last]= word 
+emoticons_hash["meaning"][faces.last]= word 
  end 
  emoticons_hash
 end
