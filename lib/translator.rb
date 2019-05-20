@@ -14,7 +14,7 @@ emoticons_hash["get_meaning"][faces.last]= word
  emoticons_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path,emoticon)
   # code goes here
 end
 
